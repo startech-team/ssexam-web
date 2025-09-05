@@ -1,0 +1,97 @@
+.login-div {
+    padding: 50px !important;
+}
+
+@media screen and (max-width:370px){
+    .login-div {
+        padding: 20px !important;
+    }
+}
+
+@media screen and (max-width:400px){
+    .login-div {
+        padding: 20px !important;
+    }
+}
+.padding-x{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.container-fluid {
+    padding-bottom: 3rem;
+}
+/* Dashboard detail */
+.mg-leftright {
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+.dash-detail-ttl {
+    width: calc(100% - 75px);
+}
+.detail-bg .form-check {
+    width: 100%;
+    background:rgba(231,231,231,.2);
+    border-radius: 5px;
+}
+.detail-bg .correct-answer {
+    background:#7AFFAF !important;
+}
+.detail-bg .wrong-answer {
+    background:#FFB5B5 !important;
+}
+
+.detail-bg p {
+    word-break: break-all;
+}
+
+.ques-info p {
+    word-break: break-all;
+}
+
+.text-brown-color {
+    color: #666666;
+}
+
+.text-size-14 {
+    font-size: 14px;
+}
+
+@media screen and (max-width:768px){
+    #dataTable,#dataTable1,#dataTable2,#question_tbl,#account_tbl {
+        min-width: 900px;
+    }
+    div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate{
+        text-align: left !important;
+    }
+    .table-responsive div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        justify-content: flex-start !important;
+        margin-left: -0.75rem;
+    }
+    .table-responsive #dataTable_filter label,#ques_modal .table-responsive #dataTable1_filter label,#account_modal .table-responsive #dataTable2_filter label {
+        margin-left: -0.75rem;
+    }
+    .dataTables_Tablet .dataTables_wrapper .row:nth-child(1) .col-md-6:nth-child(2),
+    .dataTables_Tablet .dataTables_wrapper .row:nth-child(3) .col-md-7:nth-child(2){
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .table-responsive colgroup .tb-col1 {
+        width: 10%;
+    }
+    .examTable_List .dataTables_Tablet #dataTable {
+        min-width: 300px;
+    }
+    /* user exam commit */
+    .container.user-sp {
+        padding-left: .75rem;
+        padding-right: .75rem;
+        padding-bottom: 3rem;
+    }
+    .completeImg img {
+        width: 180px;
+    }
+    .tit_complete {
+        font-size: 1.5rem;
+    }
+
+}
